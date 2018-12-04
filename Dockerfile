@@ -14,8 +14,6 @@ RUN npm run bowerInstallDocker
 
 FROM node
 
-MAINTAINER Gustavo Apolinario <gustavo.guss@gmail.com>
-
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
 

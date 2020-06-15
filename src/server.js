@@ -8,5 +8,5 @@ require('./config/bodyparser')(server);
 require('./routes/routes')(server);
 
 server.listen(process.env.PORT ? process.env.PORT : 3000, function () {
-    console.log("Express server listening on port " + (process.env.PORT ? process.env.PORT : 3000));
+    console.log("Rest API Listening on port  " + (process.env.PORT ? process.env.PORT : 3000));
 });
